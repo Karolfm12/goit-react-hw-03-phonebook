@@ -44,6 +44,7 @@ class App extends Component {
     } else {
       alert('Ten kontakt już istnieje');
     }
+    e.target.reset();
   };
 
   handleOnChange = (e, type) => {
